@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="dn.boxman"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        
+        <activity
+            android:name="dn.boxman.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <!-- 游戏主页面 -->
+        <activity android:name="dn.boxman.activity.GameActivity"></activity>
+        
+        <!-- 帮助页面 -->
+        <activity android:name="dn.boxman.activity.HelpActivity"></activity>
+        
+        <!-- 关于页面 -->
+        <activity android:name="dn.boxman.activity.AboutActivity"></activity>
+        
+        <!-- 音乐设置选项 -->
+        <activity 
+            android:name="dn.boxman.activity.MusicActivity"
+            android:theme="@android:style/Theme.Dialog"/><!-- 主题 -->
+            
+        <!-- 音乐播放服务 -->
+        <service android:name="dn.boxman.service.MusicService"></service>
+        
+    </application>
+
+</manifest>

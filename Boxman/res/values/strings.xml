@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Boxman</string>
+    <string name="menu_settings">Settings</string>
+    
+    <!-- 菜单 -->
+    <string name="help_text">Help</string>
+    <string name="help_context">PushBox is a classic game,
+        \nyou need push box to the right place</string>
+    <string name="music_text">Music</string>
+    <string name="music">music</string>
+    
+    <!-- 主界面按钮 -->
+    <string name="newGame_text">New Game</string>
+    <string name="about_text">About</string>
+    <string name="continue_text">Continue</string>
+    <string name="exit_text">Exit</string>
+
+</resources>

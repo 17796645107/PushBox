@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center_horizontal" >
+
+    <TextView 
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="80dp"
+        android:text="@string/app_name"
+        android:textSize="20sp"
+        android:gravity="center_horizontal"/>
+    
+    <Button
+        android:id="@+id/btn_newGame"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="120dp"
+        android:onClick="onClick"
+        android:text="@string/newGame_text" />
+
+    <Button
+        android:id="@+id/btn_continue"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="170dp"
+        android:onClick="onClick"
+        android:text="@string/continue_text" />
+
+    <Button
+        android:id="@+id/btn_about"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="220dp"
+        android:onClick="onClick"
+        android:text="@string/about_text" />
+ 
+    <Button
+        android:id="@+id/btn_exit"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="270dp"
+        android:onClick="onClick"
+        android:text="@string/exit_text" />
+    
+    <TextView 
+        android:id="@+id/tx_battery"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="400dp"
+        android:text=""
+       	android:gravity="center_horizontal" />
+
+</RelativeLayout>
